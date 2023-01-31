@@ -206,7 +206,10 @@ body {
   transition: 0.2s ease-in-out;
 }
 .answers:hover {
-  transform: scale(1.05);
+  background-color: var(--color-yellow);
+  box-shadow: 10px 10px 149px 1px var(--color-yellow);
+  -webkit-box-shadow: 10px 10px 149px 1px var(--color-yellow);
+  -moz-box-shadow: 10px 10px 149px 1px var(--color-yellow);
 }
 .answersCorrect {
   background-color: var(--color-green);
@@ -214,11 +217,23 @@ body {
   -webkit-box-shadow: 10px 10px 149px 1px var(--color-green);
   -moz-box-shadow: 10px 10px 149px 1px var(--color-green);
 }
-.answersWrong {
+.answersCorrect {
+  background-color: var(--color-green);
+  box-shadow: 10px 10px 149px 1px var(--color-green);
+  -webkit-box-shadow: 10px 10px 149px 1px var(--color-green);
+  -moz-box-shadow: 10px 10px 149px 1px var(--color-green);
+}
+.answersWrong:hover {
   background-color: var(--color-red);
   box-shadow: 10px 10px 149px 1px var(--color-red);
   -webkit-box-shadow: 10px 10px 149px 1px var(--color-red);
   -moz-box-shadow: 10px 10px 149px 1px var(--color-red);
+}
+.answersCorrect:hover {
+  background-color: var(--color-green);
+  box-shadow: 10px 10px 149px 1px var(--color-green);
+  -webkit-box-shadow: 10px 10px 149px 1px var(--color-green);
+  -moz-box-shadow: 10px 10px 149px 1px var(--color-green);
 }
 
 .avancement_question {
@@ -258,7 +273,9 @@ body {
     font-size: 16px;
   }
   .answers:hover {
-    transform: scale(1);
+    box-shadow: 0px 0px 0px 0px var(--color-yellow);
+    -webkit-box-shadow: 0px 0px 0px 0px var(--color-yellow);
+    -moz-box-shadow: 0px 0px 0px 0px var(--color-yellow);
   }
 
   .image__questions:hover {
