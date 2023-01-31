@@ -40,7 +40,7 @@ body {
   align-items: center;
 }
 
-#bg{
+#bg {
   position: fixed;
   top: 0;
   left: 0;
@@ -115,12 +115,12 @@ body {
   -webkit-box-shadow: 10px 10px 149px 20px var(--color-red);
   -moz-box-shadow: 10px 10px 149px 20px var(--color-red);
 }
-.lightside__easy .btn:hover{
+.lightside__easy .btn:hover {
   box-shadow: 10px 10px 149px 20px var(--color-green);
   -webkit-box-shadow: 10px 10px 149px 20px var(--color-green);
   -moz-box-shadow: 10px 10px 149px 20px var(--color-green);
 }
-.lightside__hard .btn:hover{
+.lightside__hard .btn:hover {
   box-shadow: 10px 10px 149px 50px var(--color-blue);
   -webkit-box-shadow: 10px 10px 149px 50px var(--color-blue);
   -moz-box-shadow: 10px 10px 149px 50px var(--color-blue);
@@ -149,7 +149,7 @@ body {
   -webkit-box-shadow: 10px 10px 149px 5px var(--color-orange);
   -moz-box-shadow: 10px 10px 149px 5px var(--color-orange);
 }
-.dark__easy-img:hover{
+.dark__easy-img:hover {
   box-shadow: 10px 10px 149px 50px var(--color-orange);
   -webkit-box-shadow: 10px 10px 149px 50px var(--color-orange);
   -moz-box-shadow: 10px 10px 149px 50px var(--color-orange);
@@ -159,7 +159,7 @@ body {
   -webkit-box-shadow: 10px 10px 149px 5px var(--color-red);
   -moz-box-shadow: 10px 10px 149px 5px var(--color-red);
 }
-.dark__hard-img:hover{
+.dark__hard-img:hover {
   box-shadow: 10px 10px 149px 50px var(--color-red);
   -webkit-box-shadow: 10px 10px 149px 50px var(--color-red);
   -moz-box-shadow: 10px 10px 149px 50px var(--color-red);
@@ -169,7 +169,7 @@ body {
   -webkit-box-shadow: 10px 10px 149px 5px var(--color-green);
   -moz-box-shadow: 10px 10px 149px 5px var(--color-green);
 }
-.light__easy-img:hover{
+.light__easy-img:hover {
   box-shadow: 10px 10px 149px 50px var(--color-green);
   -webkit-box-shadow: 10px 10px 149px 50px var(--color-green);
   -moz-box-shadow: 10px 10px 149px 50px var(--color-green);
@@ -179,7 +179,7 @@ body {
   -webkit-box-shadow: 10px 10px 149px 50px var(--color-blue);
   -moz-box-shadow: 10px 10px 149px 50px var(--color-blue);
 }
-.light__hard-img:hover{
+.light__hard-img:hover {
   box-shadow: 10px 10px 149px 100px var(--color-blue);
   -webkit-box-shadow: 10px 10px 149px 100px var(--color-blue);
   -moz-box-shadow: 10px 10px 149px 100px var(--color-blue);
@@ -205,36 +205,19 @@ body {
   border-radius: 25px;
   transition: 0.2s ease-out;
 }
-
 .answers:hover {
   background-color: var(--color-yellow);
   box-shadow: 10px 10px 149px 1px var(--color-yellow);
   -webkit-box-shadow: 10px 10px 149px 1px var(--color-yellow);
   -moz-box-shadow: 10px 10px 149px 1px var(--color-yellow);
 }
-
 .answersCorrect {
   background-color: var(--color-green);
   box-shadow: 10px 10px 149px 1px var(--color-green);
   -webkit-box-shadow: 10px 10px 149px 1px var(--color-green);
   -moz-box-shadow: 10px 10px 149px 1px var(--color-green);
 }
-
-.answersCorrect:hover {
-  background-color: var(--color-green);
-  box-shadow: 10px 10px 149px 1px var(--color-green);
-  -webkit-box-shadow: 10px 10px 149px 1px var(--color-green);
-  -moz-box-shadow: 10px 10px 149px 1px var(--color-green);
-}
-
 .answersWrong {
-  background-color: var(--color-red);
-  box-shadow: 10px 10px 149px 1px var(--color-red);
-  -webkit-box-shadow: 10px 10px 149px 1px var(--color-red);
-  -moz-box-shadow: 10px 10px 149px 1px var(--color-red);
-}
-
-.answersWrong:hover {
   background-color: var(--color-red);
   box-shadow: 10px 10px 149px 1px var(--color-red);
   -webkit-box-shadow: 10px 10px 149px 1px var(--color-red);
@@ -256,12 +239,14 @@ body {
 }
 
 @media (max-width: 600px) {
-  main{
+  main {
     width: 100%;
   }
   .image__questions {
     margin-bottom: 1rem;
-}
+    height: 13rem;
+    width: 10rem;
+  }
   .title_questions {
     font-size: 18px;
     width: 90%;
@@ -270,7 +255,7 @@ body {
   }
   .avancement_question {
     font-size: 17px;
-}
+  }
   .answers {
     padding: 0.8rem;
     font-size: 16px;
