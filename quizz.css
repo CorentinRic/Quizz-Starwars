@@ -260,4 +260,28 @@ body {
   .answers:hover {
     transform: scale(1);
   }
+
+  .image__questions:hover {
+    transform: scale(1);
+  }
+  .dark__easy-img:hover {
+    box-shadow: 10px 10px 149px 5px var(--color-orange);
+    -webkit-box-shadow: 10px 10px 149px 5px var(--color-orange);
+    -moz-box-shadow: 10px 10px 149px 5px var(--color-orange);
+  }
+  .dark__hard-img:hover {
+    box-shadow: 10px 10px 149px 5px var(--color-red);
+    -webkit-box-shadow: 10px 10px 149px 5px var(--color-red);
+    -moz-box-shadow: 10px 10px 149px 5px var(--color-red);
+  }
+  .light__easy-img:hover {
+    box-shadow: 10px 10px 149px 5px var(--color-green);
+    -webkit-box-shadow: 10px 10px 149px 5px var(--color-green);
+    -moz-box-shadow: 10px 10px 149px 5px var(--color-green);
+  }
+  .light__hard-img:hover {
+    box-shadow: 10px 10px 149px 50px var(--color-blue);
+    -webkit-box-shadow: 10px 10px 149px 50px var(--color-blue);
+    -moz-box-shadow: 10px 10px 149px 50px var(--color-blue);
+  }
 }
