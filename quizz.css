@@ -203,13 +203,10 @@ body {
   margin-bottom: 5%;
   cursor: pointer;
   border-radius: 25px;
-  transition: 0.2s ease-out;
+  transition: 0.2s ease-in-out;
 }
 .answers:hover {
-  background-color: var(--color-yellow);
-  box-shadow: 10px 10px 149px 1px var(--color-yellow);
-  -webkit-box-shadow: 10px 10px 149px 1px var(--color-yellow);
-  -moz-box-shadow: 10px 10px 149px 1px var(--color-yellow);
+  transform: scale(1.05);
 }
 .answersCorrect {
   background-color: var(--color-green);
@@ -259,5 +256,8 @@ body {
   .answers {
     padding: 0.8rem;
     font-size: 16px;
+  }
+  .answers:hover {
+    transform: scale(1);
   }
 }
