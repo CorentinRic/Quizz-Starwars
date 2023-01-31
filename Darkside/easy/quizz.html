@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Star wars Quizz, viens tester tes connaissances sur la force."
+    />
+    <link rel="icon" href="../Assets/Images/favicon.ico" />
+    <title>Darkside | Apprenti</title>
+    <link rel="stylesheet" href="../../quizz.css" />
+  </head>
+  <body>
+    <a class="home" href="../../index.html">Accueil</a>
+    <div id="bg"></div>
+
+    <main class="main_content darkside__easy">
+      <div id="top__container" class="top__container">
+        <h1 class="title">Darkside | Apprenti</h1>
+        <span class="sub_title"
+          ><span class="questionsNumber"> ?? </span> Questions
+        </span>
+        <div>
+          <button id="btn_start" class="btn">Commencer</button>
+        </div>
+      </div>
+
+      <div id="questions__container" class="questions__container"></div>
+
+      <div id="finish__container" class="finish__container">
+        <h2 class="">Vos résultats :</h2>
+        <span class="">
+          Vous avez <span id="answerCorrectsNumber"> ?? </span> réponses correctes sur
+          <span class="questionsNumber"> ?? </span>
+        </span>
+        <a class="goBack btn" href="../dark.html">Retour</a>
+      </div>
+    </main>
+
+    <script src="./quizz.js"></script>
+    <script type="text/javascript" src="../../js/particles.min.js"></script>
+    <script type="text/javascript" src="../../js/custom.js"></script>
+  </body>
+</html>

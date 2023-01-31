@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*Colors*/
+:root {
+  --color-red: #ef0300;
+  --color-orange: #ffa807;
+  --color-blue: #002cf0;
+  --color-green: #2aff2a;
+  --color-yellow: #ffd900;
+  --color-dark: black;
+  --color-light: white;
+
+  --transition: 0.5s ease;
+}
+
+body {
+  background-color: var(--color-dark);
+  font-family: "Righteous", cursive;
+  margin: 0;
+  color: var(--color-light);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  transition: var(--transition);
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 20rem;
+  position: relative;
+}
+.home{
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    color: var(--color-light);
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  align-items: center;
+}
+.top > h1 {
+  font-size: 3rem;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.content a {
+  color: var(--color-dark);
+  font-size: 18px;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.btn {
+	padding: 10px 15px 10px 15px;
+    border-radius: 35px;
+    background-color: var(--color-light);
+    min-width: 10rem;
+    display: flex;
+    justify-content: center;
+    transition: var(--transition);
+}
+.darkside:hover {
+    box-shadow: 10px 10px 149px 52px var(--color-red);
+    -webkit-box-shadow: 10px 10px 149px 52px var(--color-red);
+    -moz-box-shadow: 10px 10px 149px 52px var(--color-red);
+}
+.lightside:hover{
+    box-shadow: 10px 10px 149px 65px var(--color-blue);
+    -webkit-box-shadow: 10px 10px 149px 65px var(--color-blue);
+    -moz-box-shadow: 10px 10px 149px 65px var(--color-blue);
+}
+
+/*Level dark*/
+.dark__content > .easy:hover {
+    box-shadow: 10px 10px 149px 52px var(--color-orange);
+    -webkit-box-shadow: 10px 10px 149px 52px var(--color-orange);
+    -moz-box-shadow: 10px 10px 149px 52px var(--color-orange);
+}
+.dark__content > .hard:hover {
+    box-shadow: 10px 10px 149px 52px var(--color-red);
+    -webkit-box-shadow: 10px 10px 149px 52px var(--color-red);
+    -moz-box-shadow: 10px 10px 149px 52px var(--color-red);
+}
+
+/*Level light*/
+.light__content > .easy:hover {
+    box-shadow: 10px 10px 149px 65px var(--color-green);
+    -webkit-box-shadow: 10px 10px 149px 65px var(--color-green);
+    -moz-box-shadow: 10px 10px 149px 65px var(--color-green);
+}
+.light__content > .hard:hover {
+    box-shadow: 10px 10px 149px 65px var(--color-blue);
+    -webkit-box-shadow: 10px 10px 149px 65px var(--color-blue);
+    -moz-box-shadow: 10px 10px 149px 65px var(--color-blue);
+}
+
+.red {
+  background-color: var(--color-red);
+}
+.blue {
+  background-color: var(--color-blue);
+}
