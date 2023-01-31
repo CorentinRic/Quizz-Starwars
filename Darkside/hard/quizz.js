@@ -176,7 +176,7 @@ let question9 = new Question(
 quiz.addQuestion(question9);
 
 let question10 = new Question(
-  "Comment s'appelle le vaisseau des Chevaliers de Ren",
+  "Comment s'appelle le vaisseau des Chevaliers de Ren ?",
   ["Y-wing", "Executor", "Night Buzzard"],
   3,
   "./images/brian-mcgowan-oKl7Uhak54U-unsplash.webp"
